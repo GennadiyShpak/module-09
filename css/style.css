@@ -187,46 +187,44 @@ html {
   background-color: #4e73db;
 }
 
-@media (min-width: 320px) {
-  .container__nav {
-    background-color: rgb(26, 25, 21);
-    flex-flow: column;
-    height: auto;
-    background-image: url(../img/background/bg_mob.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.container__nav {
+  background-color: rgb(26, 25, 21);
+  flex-flow: column;
+  height: auto;
+  background-image: url(../img/background/bg_mob.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .navigaton {
-    margin: 0 auto;
-    margin-bottom: 38px;
-  }
+.navigaton {
+  margin: 0 auto;
+  margin-bottom: 38px;
+}
 
-  .title__section {
-    text-align: center;
-  }
+.title__section {
+  text-align: center;
+}
 
-  .title {
-    letter-spacing: -2.1px;
-    margin-bottom: 18px;
-  }
+.title {
+  letter-spacing: -2.1px;
+  margin-bottom: 18px;
+}
 
-  .container__partner {
-    padding-top: 70px;
-  }
+.container__partner {
+  padding-top: 70px;
+}
 
-  .partner__title {
-    text-align: center;
-  }
+.partner__title {
+  text-align: center;
+}
 
-  .wrapper__partner-pict {
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
+.wrapper__partner-pict {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 
-  .link__wrapper {
-    text-align: center;
-  }
+.link__wrapper {
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
